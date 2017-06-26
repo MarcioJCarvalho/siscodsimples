@@ -1,0 +1,18 @@
+//CRIANDO O BANCO
+create database siscodsimples;
+//USABDO O BANCO CRIADO
+use siscodsimples;
+//CRIANDO TABELAS
+create table tbuser(
+
+               id int auto_increment,
+    
+	       constraint id_pk primary key(id),
+    
+               usuario_tbuser varchar (150),
+    
+               senha_tbuser varchar (80)
+               
+);
+
+
